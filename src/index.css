@@ -15,6 +15,11 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+  color: unset;
+}
+
 .main-layout {
   display: flex;
   flex-direction: row;
@@ -50,4 +55,5 @@ nav li a {
 .nav-active {
   color: white;
   transition: all 0.3s ease-out;
+  border-bottom: 1px solid white;
 }
